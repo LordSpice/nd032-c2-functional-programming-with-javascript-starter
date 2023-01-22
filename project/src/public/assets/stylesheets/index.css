@@ -11,6 +11,15 @@ header {
   /* header styles */
 }
 
+.images {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.image {
+  margin: 2px;
+}
+
 main {
   flex: 1;
   padding: 20px;
@@ -23,16 +32,25 @@ footer {
 /* -------------------  TABLET  --------------------- */
 @media (min-width: 768px) {
   /* use mobile */
+  .images {
+    width: 760px;
+  }
 }
 
 /* -------------------  DESKTOP  -------------------- */
 
 @media (min-width: 1224px) {
   /* use mobile */
+  .images {
+    width: 1220px;
+  }
 }
 
 /* -------------------  LARGE SCREENS  -------------- */
 
 @media (min-width: 1824px) {
   /* use mobile */
+  .images {
+    width: 1820px;
+  }
 }
